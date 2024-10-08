@@ -1,0 +1,61 @@
+.inital {
+  background-color: #10b981;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-item {
+  background-color: transparent;
+  width: 320px;
+  display: flex;
+  border: solid;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  margin: 10px;
+  border-color: #64748b;
+  border-width: 1.5px;
+}
+.delete-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.delete-icon {
+  width: 20px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+.inner-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+}
+.username {
+  color: white;
+  padding-bottom: 1px;
+  margin-top: 20px;
+}
+.password {
+  color: white;
+}
+.starts-img {
+  width: 180px;
+}
+.websiteUrl {
+  color: white;
+  margin-bottom: 30px;
+}
+.checkbox-element {
+  color: white;
+}
